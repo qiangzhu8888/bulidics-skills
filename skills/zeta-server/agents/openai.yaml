@@ -1,0 +1,4 @@
+interface:
+  display_name: "ZETA SERVER"
+  short_description: "ZETA API・MQTT・センサー解析を簡単に案内"
+  default_prompt: "ZETA SERVERに接続し、センサーデータを取得してBUILDICSへ連携する手順を示してください。"
