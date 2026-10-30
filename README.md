@@ -6,6 +6,7 @@ Portable skills for implementing and operating BULIDICS integrations and Agentic
 
 | Skill | Purpose |
 |---|---|
+| `integrate-1nce` | Implement 1NCE OAuth, SIM management, Historian REST retrieval, and telemetry webhooks for BUILDICS. |
 | `agentic-iot-architect` | Design, diagnose, and transform IoT systems using Agentic IoT concepts, including ZiFiSense ZETA Server API & MQTT integrations. |
 | `bulidics-api` | Implement and review BULIDICS HTTP push v1.0 and RESTful API v1.0.2 integrations. |
 | `bulidics-water-leak-monitor` | Evaluate water-leak sensor state, transition history, duplicate delivery, communication freshness, and polling data-loss risk. |
@@ -71,3 +72,17 @@ The scripts validate local data structure and state rules only. They do not prov
 ## Security
 
 Do not commit BULIDICS `Apikey` values, Dify MCP URLs, customer endpoint credentials, or other secrets. Keep live access and secrets in the API or MCP runtime, not in skill files.
+
+## 1NCE integration
+
+See [integrate-1nce](skills/integrate-1nce/SKILL.md) for API references, webhook design, and read-only Python examples.
+
+Copy `skills/integrate-1nce` to your tool's skills directory and invoke `$integrate-1nce` in Codex or `/integrate-1nce` in Cursor.
+
+Run local checks:
+
+```bash
+python3 -m unittest discover -s skills/integrate-1nce/scripts -p 'test_*.py'
+```
+
+The references summarize official documentation checked on 2026-10-30. Account-specific API availability and live connectivity have not been tested. Keep SIM management and sensor telemetry separate; do not automatically replace documented 1NCE OS `/v1/` paths with `/v2/`.

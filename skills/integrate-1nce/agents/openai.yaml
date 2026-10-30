@@ -1,0 +1,13 @@
+interface:
+  display_name: 1NCE開発・BUILDICS連携
+  short_description: 1NCEのSIM管理・測定データ取得・Webhook連携を開発する
+  default_prompt: $integrate-1nce を使って、1NCEセンサーをBUILDICSへ連携する実装を準備してください。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
