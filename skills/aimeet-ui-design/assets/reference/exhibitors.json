@@ -1,0 +1,116 @@
+[
+  {
+    "id": "demo-01",
+    "slug": "demo-01",
+    "companyName": "サンプル技術株式会社",
+    "companyNameKana": "サンプルギジュツ",
+    "boothNumber": "1A-01",
+    "categories": [
+      "AI・IoT",
+      "データ活用",
+      "クラウド"
+    ],
+    "category": "AI・IoT",
+    "exhibitionContent": "IoTセンサーと設備管理のデモ展示。架空の会社・展示内容です。",
+    "companyDescription": "これはレイアウト確認用の架空データです。\n企業名・出展内容・小間番号は実在する展示会の情報ではありません。",
+    "visitorAppeal": "情報量が多い出展者の詳細レイアウトを確認できます。",
+    "logoUrl": "./demo-logo.svg"
+  },
+  {
+    "id": "demo-02",
+    "slug": "demo-02",
+    "companyName": "デモクラウド株式会社",
+    "companyNameKana": "デモクラウド",
+    "boothNumber": "1A-02",
+    "categories": [
+      "クラウド"
+    ],
+    "category": "クラウド",
+    "exhibitionContent": "クラウドサービスの架空サンプルです。",
+    "logoUrl": "./intentionally-missing-logo.svg"
+  },
+  {
+    "id": "demo-03",
+    "slug": "demo-03",
+    "companyName": "見本データソリューション株式会社",
+    "companyNameKana": "ミホンデータ",
+    "boothNumber": "2B-10",
+    "categories": [
+      "データ活用"
+    ],
+    "category": "データ活用",
+    "exhibitionContent": "データ可視化の架空サンプルです。"
+  },
+  {
+    "id": "demo-04",
+    "slug": "demo-04",
+    "companyName": "株式会社サンプルデバイス・インテグレーション・パートナーズ",
+    "companyNameKana": "サンプルデバイス",
+    "boothNumber": "2B-11",
+    "categories": [
+      "AI・IoT"
+    ],
+    "category": "AI・IoT",
+    "exhibitionContent": "長い会社名と長い出展内容の折り返しを確認するための架空サンプルです。文章はカードで2行に収め、詳細では全文を確認できるようにします。"
+  },
+  {
+    "id": "demo-05",
+    "slug": "demo-05",
+    "companyName": "見本セキュリティ株式会社",
+    "companyNameKana": "ミホンセキュリティ",
+    "boothNumber": "",
+    "categories": [
+      "セキュリティ"
+    ],
+    "category": "セキュリティ",
+    "exhibitionContent": ""
+  },
+  {
+    "id": "demo-06",
+    "slug": "demo-06",
+    "companyName": "デモオートメーション株式会社",
+    "companyNameKana": "デモオートメーション",
+    "boothNumber": "1A-03",
+    "categories": [
+      "AI・IoT"
+    ],
+    "category": "AI・IoT",
+    "exhibitionContent": "自動化機器の架空サンプルです。"
+  },
+  {
+    "id": "demo-07",
+    "slug": "demo-07",
+    "companyName": "見本ラボ",
+    "companyNameKana": "ミホンラボ",
+    "boothNumber": "2B-13",
+    "categories": [
+      "データ活用"
+    ],
+    "category": "データ活用",
+    "exhibitionContent": "可視化技術の架空サンプルです。"
+  },
+  {
+    "id": "demo-08",
+    "slug": "demo-08",
+    "companyName": "サンプルビジネス株式会社",
+    "companyNameKana": "サンプルビジネス",
+    "boothNumber": "1A-04",
+    "categories": [
+      "クラウド"
+    ],
+    "category": "クラウド",
+    "exhibitionContent": "業務管理の架空サンプルです。"
+  },
+  {
+    "id": "demo-09",
+    "slug": "demo-09",
+    "companyName": "デモ・ネットワーク株式会社",
+    "companyNameKana": "デモネットワーク",
+    "boothNumber": "1A-05",
+    "categories": [
+      "AI・IoT"
+    ],
+    "category": "AI・IoT",
+    "exhibitionContent": "ネットワーク技術の架空サンプルです。"
+  }
+]

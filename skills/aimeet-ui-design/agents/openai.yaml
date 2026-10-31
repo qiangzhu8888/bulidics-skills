@@ -1,0 +1,15 @@
+interface:
+  display_name: AiMeet UIデザイン
+  short_description: 一覧・詳細ページを完成見本と共通ルールで整え、実画面で検証する
+  default_prompt: Use $aimeet-ui-design to improve this AiMeet page using the bundled
+    reference layouts, preserve existing functionality, and verify the result in the
+    browser.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
